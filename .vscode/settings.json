@@ -1,0 +1,45 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false
+    },
+    "python.sortImports.args": [
+        "--profile=black"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        }
+    },
+    "python.linting.enable": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--line-length",
+        "88"
+    ],
+    "editor.rulers": [
+        88
+    ],
+    "python.formatting.provider": "black",
+    "workbench.colorTheme": "Default Light+",
+    "remote.SSH.connectTimeout": 25,
+    "cSpell.userWords": [
+        "gensim",
+        "isin",
+        "matplotlib",
+        "nltk",
+        "pyplot",
+        "sklearn",
+        "гиперпараметров",
+        "конртакторам",
+        "контрактор",
+        "контракторов",
+        "Контракторы"
+    ],
+    "jupyter.askForKernelRestart": false,
+    "cSpell.language": "en,ru""[latex]": {
+        "diffEditor.wordWrap": "on"
+    },
+}
